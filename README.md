@@ -15,10 +15,11 @@ Ideally, write it as you would a production piece of code. Bonus points for test
 
 The way it is implemented is pretty wild and should be relatively fast but should be further tested to make it more stable.
 
-To further optimise it:
-Add workers
-Reuse connection
-Benchmark data extraction. Consider GoQuery/Regex([Not recommended](https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454))
+### To further optimise it:
+- Add workers
+- Reuse connection
+- Benchmark data extraction. 
+- Consider GoQuery/Regex([Not recommended](https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454))
 
 
 ## How to run
