@@ -1,11 +1,9 @@
 ##  Brief
-“We'd like you to write a simple web crawler in Go. The crawler should be limited to one domain - so when crawling it would crawl the domain, but not follow external links, for example to the Facebook and Twitter accounts.
+Write a simple web crawler in Go. The crawler should be limited to one domain - so when crawling it would crawl the domain, but not follow external links, for example to the Facebook and Twitter accounts.
 
 Given a URL, your program should output a site map showing each page's url, title, static assets, internal links and external links.
 
 The number of pages that are crawled should be configurable. We suggest crawling wikipedia and limiting the number of pages to 100.
-
-Ideally, write it as you would a production piece of code. Bonus points for tests and making it as fast as possible!”
 
 ##  Approach
 1. Scrape website.
